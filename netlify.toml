@@ -4,7 +4,7 @@
     functions = "/functions"
 
 [build.environment]
-    GO_VERSION = "1.17.6"ret
+    GO_VERSION = "1.17.6"
 
 [functions]
     directory = "src"
