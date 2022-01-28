@@ -11,4 +11,3 @@
 
 [functions.hello-cronny]
     schedule = "* * * * *"
-ß
