@@ -2,14 +2,14 @@ package main
 
 import (
 	"context"
-	"fmt"
+	"log"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
-	fmt.Println("This message will show up in the CLI console.")
+	log.Println("This message will show up in the CLI console.")
 
 	return &events.APIGatewayProxyResponse{
 		StatusCode:      200,
