@@ -1,13 +1,12 @@
 [build]
-    base = "/"
-    command = "make build"
-    functions = "/functions"
+command = "make build"
+functions = "functions"
 
 [build.environment]
-    GO_VERSION = "1.17.6"
+GO_VERSION = "1.17.6"
 
 [functions]
-    directory = "src"
+directory = "src/"
 
 [functions.hello-cronny]
-    schedule = "* * * * *"
+schedule = "* * * * *"
