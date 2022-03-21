@@ -9,4 +9,4 @@ GO_VERSION = "1.17.6"
 directory = "src/"
 
 [functions.hello-cronny]
-schedule = "* * * * *"
+schedule = "@hourly"
