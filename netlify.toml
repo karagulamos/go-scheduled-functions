@@ -1,2 +1,2 @@
 [functions.scheduled-function]
-schedule = "* * * * *"
+schedule = "@hourly"
