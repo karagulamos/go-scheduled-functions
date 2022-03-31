@@ -2,4 +2,4 @@
 GO_VERSION = "1.17"
 
 [functions.scheduled-function]
-schedule = " * * * * *"
+schedule = "@hourly"
