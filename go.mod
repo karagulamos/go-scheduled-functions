@@ -1,4 +1,4 @@
-module github.com/karagulamos/go-scheduled-functions
+module github.com/your-github-handle/scheduled-function
 
 go 1.17
 
