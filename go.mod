@@ -1,4 +1,4 @@
-module github.com/your-github-handle/scheduled-function
+module github.com/your-github-handle/hourly-schedule
 
 go 1.17
 

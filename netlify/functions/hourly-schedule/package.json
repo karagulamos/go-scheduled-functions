@@ -1,0 +1,17 @@
+{
+  "name": "hourly-schedule",
+  "version": "1.0.0",
+  "description": "netlify functions:create - scheduled function in TypeScript",
+  "main": "hourly-schedule.ts",
+  "scripts": {
+    "postinstall": "go mod tidy"
+  },
+  "keywords": [
+    "netlify",
+    "serverless",
+    "typescript",
+    "schedule"
+  ],
+  "author": "Netlify",
+  "license": "MIT"
+}
