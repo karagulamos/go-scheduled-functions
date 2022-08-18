@@ -25,7 +25,7 @@ func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*event
 	}
 
 	log.Printf("Next run at %s\n", requestBody.NextRun.Local())
-	log.Printf("VERSION: %d", 1)
+	log.Printf("VERSION: %d", 2)
 
 	return &events.APIGatewayProxyResponse{
 		StatusCode: http.StatusNoContent,
